@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class WelcomView extends StatelessWidget {
-  const WelcomView({
+class Welcome extends StatelessWidget {
+  const Welcome({
     Key? key,
   }) : super(key: key);
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'package:together_tabata/const/ColorList.dart';
-import './content/welcomeView/WelcomView.dart';
-import './content/menu/Menu.dart';
-import './content/footer/BottomNavigation.dart';
+import './content/welcome/Welcome.dart';
+import './content/category/Category.dart';
+import './content/BottomNavigation/BottomNavigation.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -24,7 +24,7 @@ class MainPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 15),
                 child: Column(
-                  children: <Widget>[WelcomView(), Menu()],
+                  children: <Widget>[Welcome(), Category()],
                 ),
               ),
             )
